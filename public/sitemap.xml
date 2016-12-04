@@ -3,16 +3,17 @@
   
   <url>
     <loc>http://tutorials.corcel.io/</loc>
-    <lastmod>2016-08-24T19:59:36+01:00</lastmod>
+    <lastmod>2016-12-04T10:34:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tutorials.corcel.io/setup/using-a-single-url/</loc>
+    <lastmod>2016-12-04T10:34:18+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://tutorials.corcel.io/</loc>
     <lastmod>2016-08-24T19:59:36+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tutorials.corcel.io/setup/using-a-single-url/</loc>
   </url>
   
 </urlset>

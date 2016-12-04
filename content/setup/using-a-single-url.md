@@ -1,5 +1,5 @@
 ---
-date: 2016-12-04T10:34:18+0000
+date: 2016-12-04T10:34:18Z
 title: Using a single url
 menu:
   main:

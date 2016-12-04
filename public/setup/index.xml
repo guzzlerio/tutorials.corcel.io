@@ -7,12 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Released under Mozilla Public License Version 2.0</copyright>
+    <lastBuildDate>Sun, 04 Dec 2016 10:34:18 +0000</lastBuildDate>
     <atom:link href="http://tutorials.corcel.io/setup/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Using a single url</title>
       <link>http://tutorials.corcel.io/setup/using-a-single-url/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 04 Dec 2016 10:34:18 +0000</pubDate>
       
       <guid>http://tutorials.corcel.io/setup/using-a-single-url/</guid>
       <description>
