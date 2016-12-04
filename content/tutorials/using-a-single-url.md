@@ -4,8 +4,8 @@ title: Using a single url
 menu:
   main:
     name: Single URL
-    parent: Setup
+    parent: Tutorials
 ---
 
-## Tutorial 1
+IN PROGRESS
 
