@@ -7,87 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Released under Mozilla Public License Version 2.0</copyright>
-    <lastBuildDate>Wed, 24 Aug 2016 16:27:03 +0100</lastBuildDate>
     <atom:link href="http://tutorials.corcel.io/setup/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Getting Started</title>
-      <link>http://tutorials.corcel.io/setup/getting-started/</link>
-      <pubDate>Wed, 24 Aug 2016 16:27:03 +0100</pubDate>
+      <title>Using a single url</title>
+      <link>http://tutorials.corcel.io/setup/using-a-single-url/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://tutorials.corcel.io/setup/getting-started/</guid>
-      <description>&lt;p&gt;To get started create a web server using a simple node.js script.&lt;/p&gt;
-
-&lt;p&gt;Add the following to a file called &lt;strong&gt;server.js&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;const http = require(&#39;http&#39;);
-const url = require(&amp;quot;url&amp;quot;);
-const hostname = &#39;localhost&#39;;
-const port = 1337;
-
-http.createServer((req, res) =&amp;gt; {
-      res.writeHead(200, { &#39;Content-Type&#39;: &#39;text/plain&#39; });
-            res.end();
-            
-}).listen(port, hostname, () =&amp;gt; {
-      console.log(`Server running at http://${hostname}:${port}/`);
-      
-});
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Next create a &lt;a href=&#34;http://tutorials.corcel.io/usage/using-a-url-file&#34;&gt;URL file&lt;/a&gt; called &lt;strong&gt;urls.txt&lt;/strong&gt; and paste the following lines inside:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;http://localhost:1337/people
-http://localhost:1337/principles
-http://localhost:1337/practices
-http://localhost:1337/processes
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Start your node.js web server with the following command:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;node server.js
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Inside a separate terminal invoke &lt;strong&gt;corcel&lt;/strong&gt; ensuring you are in the same directory as the &lt;strong&gt;urls.txt&lt;/strong&gt; file.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;corcel run --duration 10s --workers 2 --summary urls.txt
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Once the test has finished you should see an output like the following:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;╔═══════════════════════════════════════════════════════════════════╗
-║                           Summary                                 ║
-╠═══════════════════════════════════════════════════════════════════╣
-║         Running Time: 10.002795047s                               ║
-║           Throughput: 5263 req/s                                  ║
-║       Total Requests: 52587                                       ║
-║     Number of Errors: 0                                           ║
-║         Availability: 100.0000%                                   ║
-║           Bytes Sent: 2.4 MB                                      ║
-║       Bytes Received: 7.3 MB                                      ║
-║   Mean Response Time: 0.0730 ms                                   ║
-║    Min Response Time: 0.0000 ms                                   ║
-║    Max Response Time: 8.0000 ms                                   ║
-╚═══════════════════════════════════════════════════════════════════╝
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Corcel can be used currently with a &lt;a href=&#34;http://tutorials.corcel.io/usage/using-a-url-file&#34;&gt;URL file&lt;/a&gt; or a &lt;a href=&#34;http://tutorials.corcel.io/usage/using-a-scenario-file&#34;&gt;Scenario File&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Installation</title>
-      <link>http://tutorials.corcel.io/setup/installation/</link>
-      <pubDate>Wed, 24 Aug 2016 16:27:03 +0100</pubDate>
-      
-      <guid>http://tutorials.corcel.io/setup/installation/</guid>
+      <guid>http://tutorials.corcel.io/setup/using-a-single-url/</guid>
       <description>
 
-&lt;p&gt;Go to our &lt;a href=&#34;http://corcel.io/downloads/&#34;&gt;downloads section&lt;/a&gt; and download the corcel package for your operating system.&lt;/p&gt;
-
-&lt;h2 id=&#34;package-managers&#34;&gt;Package Managers&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;We will soon&lt;/strong&gt; support popular package managers on the various distributions including aptitude, pacman, yum, homebrew, chocolatey and more &amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;tutorial-1&#34;&gt;Tutorial 1&lt;/h2&gt;
 </description>
     </item>
     
