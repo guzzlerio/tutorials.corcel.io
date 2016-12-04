@@ -1,0 +1,39 @@
+baseUrl:        http://tutorials.corcel.io
+languageCode:   en-gb
+title:          Corcel
+metaDataFormat: yaml
+theme:          theme.corcel.io
+canonifyUrls:   true
+params:
+  corcelUrl: http://tutorials.corcel.io
+  # General information
+  author:      Guzzler.io
+  description: Documentation for Corcel
+  copyright:   Released under my prefered license
+
+  # Repository
+  provider:   GitHub
+  repoUrl:    https://github.com/guzzlerio/tutorials.corcel.io
+  repoId:     corcel.io
+
+  version:     1.0.0
+  # favicon:     favicon.ico
+
+  permalink:   "#"
+  siteLinks:
+      - Label:   Downloads
+        URL:     https://corcel.io/downloads
+      - Label:   Documentation
+        URL:     http://docs.corcel.io
+      - Label:   Blog
+        URL:     https://blog.corcel.io
+      - Label:   Tutorials
+        URL:     https://blog.corcel.io/tutorials
+
+  social:
+    github:    guzzlerio
+menu:
+  main:
+    - name: Setup
+      weight: 1
+...
